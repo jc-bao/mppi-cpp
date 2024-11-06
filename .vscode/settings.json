@@ -1,0 +1,11 @@
+{
+    "cmake.sourceDirectory": "/home/pcy/Research/code/mppi-cpp/devel/rs.cpp",
+    "files.associations": {
+        "*.m": "matlab",
+        "ostream": "cpp",
+        "*.ipp": "cpp",
+        "*.tcc": "cpp",
+        "system_error": "cpp",
+        "*.txx": "cpp"
+    }
+}
