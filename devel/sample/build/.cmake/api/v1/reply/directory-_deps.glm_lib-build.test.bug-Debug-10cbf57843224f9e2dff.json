@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/glm_lib-build/test/bug",
+		"source" : "build/_deps/glm_lib-src/test/bug"
+	}
+}

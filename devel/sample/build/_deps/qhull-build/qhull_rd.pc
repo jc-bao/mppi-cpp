@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/mujoco_samples
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: qhull_rd
+Description: Qhull reentrant shared library
+Version: 8.1-alpha1
+Libs: -L${libdir} -lqhull_rd
+Cflags: -I${includedir}
+

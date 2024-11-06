@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/_deps/ccd-src/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libccd.a"
+			],
+			"targetId" : "ccd::@38abda21a504939c0e68",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/ccd",
+			"paths" : 
+			[
+				"build/_deps/ccd-src/src/ccd/ccd.h",
+				"build/_deps/ccd-src/src/ccd/compiler.h",
+				"build/_deps/ccd-src/src/ccd/ccd_export.h",
+				"build/_deps/ccd-src/src/ccd/quat.h",
+				"build/_deps/ccd-src/src/ccd/vec3.h",
+				"build/_deps/ccd-build/src/ccd/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/ccd",
+			"exportName" : "ccd-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ccd::@38abda21a504939c0e68",
+					"index" : 32
+				}
+			],
+			"paths" : 
+			[
+				"_deps/ccd-build/src/CMakeFiles/Export/1ec81c47dcc60201f3455480ce4c19b2/ccd-targets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/ccd-build/src",
+		"source" : "build/_deps/ccd-src/src"
+	}
+}

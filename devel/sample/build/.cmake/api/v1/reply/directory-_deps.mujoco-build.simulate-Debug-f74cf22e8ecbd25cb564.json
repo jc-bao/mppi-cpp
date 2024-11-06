@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/_deps/mujoco-src/simulate/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 242,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "simulate",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/simulate.exe"
+			],
+			"targetId" : "simulate::@822b6ef9ca8f401fafb7",
+			"targetIndex" : 58,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/mujoco-build/simulate",
+		"source" : "build/_deps/mujoco-src/simulate"
+	}
+}

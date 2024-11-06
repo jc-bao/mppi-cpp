@@ -1,0 +1,1616 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/libmujoco.dll"
+		},
+		{
+			"path" : "lib/libmujoco.dll.a"
+		},
+		{
+			"path" : "bin/libmujoco.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"build/_deps/mujoco-src/CMakeLists.txt",
+			"cmake/SampleOptions.cmake",
+			"CMakeLists.txt",
+			"build/_deps/mujoco-src/src/user/CMakeLists.txt",
+			"build/_deps/mujoco-src/cmake/MujocoDependencies.cmake",
+			"build/_deps/mujoco-src/src/engine/CMakeLists.txt",
+			"build/_deps/mujoco-src/src/xml/CMakeLists.txt",
+			"build/_deps/mujoco-src/src/render/CMakeLists.txt",
+			"build/_deps/mujoco-src/src/thread/CMakeLists.txt",
+			"build/_deps/mujoco-src/src/ui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 194,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 51,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 116,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 123,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 92,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 38,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 34,
+				"parent" : 21
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 29,
+				"parent" : 23
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 23,
+				"parent" : 25
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 16,
+				"parent" : 27
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "CCD_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MC_IMPLEM_ENABLE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MUJOCO_DLL_EXPORTS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "MUJOCO_TINYOBJLOADER_IMPL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TINYXML2_DEBUG"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "mjUSEPLATFORMSIMD"
+				},
+				{
+					"define" : "mujoco_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/marchingcubecpp-src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-build/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-src/src/libqhull_r"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/tinyobjloader-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/tinyxml2-src"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c11 -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mavx"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mpclmul"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-int-in-bool-context"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wimplicit-fallthrough=5"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-maybe-uninitialized"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "CCD_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MC_IMPLEM_ENABLE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MUJOCO_DLL_EXPORTS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "MUJOCO_TINYOBJLOADER_IMPL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TINYXML2_DEBUG"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "mjUSEPLATFORMSIMD"
+				},
+				{
+					"define" : "mujoco_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/marchingcubecpp-src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-build/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-src/src/libqhull_r"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/tinyobjloader-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/tinyxml2-src"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				21,
+				23,
+				25,
+				28,
+				30,
+				32,
+				35,
+				37,
+				41,
+				43,
+				45,
+				47,
+				49,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				65,
+				67,
+				69,
+				71,
+				73,
+				83,
+				111,
+				114,
+				116,
+				118,
+				120,
+				127
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mavx"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mpclmul"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-int-in-bool-context"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wimplicit-fallthrough=5"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-maybe-uninitialized"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "CCD_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MC_IMPLEM_ENABLE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MUJOCO_DLL_EXPORTS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "MUJOCO_TINYOBJLOADER_IMPL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TINYXML2_DEBUG"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "mjUSEPLATFORMSIMD"
+				},
+				{
+					"define" : "mujoco_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/marchingcubecpp-src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-build/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-src/src/libqhull_r"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/tinyobjloader-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/tinyxml2-src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				19,
+				39,
+				75,
+				77,
+				79,
+				81,
+				84,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				113,
+				122,
+				125
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "lodepng::@5096ace5b6b331c30bf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "qhullstatic_r::@4af2aa71350e55b0c48f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "tinyobjloader::@504dab42fa214d3d2823"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "tinyxml2::@bafd953fc568ffa9a669"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ccd::@38abda21a504939c0e68"
+		}
+	],
+	"id" : "mujoco::@5096ace5b6b331c30bf2",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/mujoco_samples"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\libccd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\liblodepng.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\libqhullstatic_rd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\libtinyobjloader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\libtinyxml2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mujoco",
+	"nameOnDisk" : "libmujoco.dll",
+	"paths" : 
+	{
+		"build" : "_deps/mujoco-build",
+		"source" : "build/_deps/mujoco-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				28,
+				30,
+				32,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				84,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				114,
+				116,
+				118,
+				120,
+				122,
+				125,
+				127
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				27,
+				29,
+				31,
+				33,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				115,
+				117,
+				119,
+				121,
+				123,
+				124,
+				126,
+				128
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/mujoco-src/dist/mujoco.rc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_array_safety.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_callback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_callback.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_box.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_convex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_convex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_driver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_driver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_gjk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_gjk.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_primitive.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_primitive.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_sdf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_collision_sdf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_core_constraint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_core_constraint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_core_smooth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_core_smooth.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_crossplatform.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_crossplatform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_derivative.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_derivative.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_derivative_fd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_derivative_fd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_forward.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_forward.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_global_table.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_inverse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_inverse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_island.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_island.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_io.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_io.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_macro.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_name.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_name.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_passive.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_passive.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_plugin.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_plugin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_print.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_print.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_ray.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_ray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_sensor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_sensor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_setconst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_setconst.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_solver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_solver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_sort.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_support.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_support.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_blas.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_blas.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_errmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_errmem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_misc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_solve.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_solve.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_sparse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_sparse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_sparse_avx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_spatial.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_util_spatial.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_vis_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_vis_init.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_vis_interact.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_vis_interact.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_vis_state.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_vis_state.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_vis_visualize.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "build/_deps/mujoco-src/src/engine/engine_vis_visualize.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_api.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "build/_deps/mujoco-src/src/user/user_api.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_cache.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "build/_deps/mujoco-src/src/user/user_cache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_composite.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "build/_deps/mujoco-src/src/user/user_composite.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_flexcomp.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "build/_deps/mujoco-src/src/user/user_flexcomp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/user/user_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_mesh.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_model.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "build/_deps/mujoco-src/src/user/user_model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_objects.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "build/_deps/mujoco-src/src/user/user_objects.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_resource.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "build/_deps/mujoco-src/src/user/user_resource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_util.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "build/_deps/mujoco-src/src/user/user_util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/user/user_vfs.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "build/_deps/mujoco-src/src/user/user_vfs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_api.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_api.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_base.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_base.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/xml/xml.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"path" : "build/_deps/mujoco-src/src/xml/xml.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_native_reader.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_native_reader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_numeric_format.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_numeric_format.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_native_writer.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_native_writer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_urdf.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_urdf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_util.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"path" : "build/_deps/mujoco-src/src/xml/xml_util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/render/glad/glad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"path" : "build/_deps/mujoco-src/src/render/glad/glad.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/render/glad/loader.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/render/render_context.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"path" : "build/_deps/mujoco-src/src/render/render_context.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/render/render_gl2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"path" : "build/_deps/mujoco-src/src/render/render_gl2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/render/render_gl3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"path" : "build/_deps/mujoco-src/src/render/render_gl3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/render/render_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"path" : "build/_deps/mujoco-src/src/render/render_util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/thread/thread_pool.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"path" : "build/_deps/mujoco-src/src/thread/thread_pool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 26,
+			"path" : "build/_deps/mujoco-src/src/thread/thread_queue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 2,
+			"path" : "build/_deps/mujoco-src/src/thread/thread_task.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"path" : "build/_deps/mujoco-src/src/thread/thread_task.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"compileGroupIndex" : 1,
+			"path" : "build/_deps/mujoco-src/src/ui/ui_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 28,
+			"path" : "build/_deps/mujoco-src/src/ui/ui_main.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

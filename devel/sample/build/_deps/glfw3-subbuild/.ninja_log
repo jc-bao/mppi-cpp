@@ -1,0 +1,21 @@
+# ninja log v6
+88	5667	7526036701172855	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-download	ae44dc5f2536b23f
+5994	6085	7526036705384925	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-configure	997535cafa41a583
+6168	6244	7526036706972431	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-install	25011e28ae1ed60
+5668	5916	7526036703662072	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-update_disconnected	2acf9b577501e9f2
+5916	5994	7526036704443391	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-patch_disconnected	8de2b6a36143df41
+6245	6344	7526036707948915	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-test	e121803e69a2d8f0
+5916	5994	7526036704443391	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-patch_disconnected	8de2b6a36143df41
+6344	6466	7526036709151379	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-done	aa57945e0ad683e0
+5994	6085	7526036705384925	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-configure	997535cafa41a583
+6168	6244	7526036706972431	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-install	25011e28ae1ed60
+6085	6168	7526036706176429	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-build	968511b672de678e
+6085	6168	7526036706176429	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-build	968511b672de678e
+4	87	7526036645348976	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-mkdir	b50e2363db32f28a
+88	5667	7526036701172855	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-download	ae44dc5f2536b23f
+4	87	7526036645348976	glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-mkdir	b50e2363db32f28a
+6344	6466	7526036709151379	CMakeFiles/glfw3-populate-complete	aa57945e0ad683e0
+6344	6466	7526036709151379	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate-complete	aa57945e0ad683e0
+6344	6466	7526036709151379	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-done	aa57945e0ad683e0
+6245	6344	7526036707948915	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-test	e121803e69a2d8f0
+5668	5916	7526036703662072	C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-update_disconnected	2acf9b577501e9f2

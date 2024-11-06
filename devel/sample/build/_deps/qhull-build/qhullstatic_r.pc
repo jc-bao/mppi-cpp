@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/mujoco_samples
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: qhullstatic_r
+Description: Qhull reentrant static library
+Version: 8.1-alpha1
+Libs: -L${libdir} -lqhullstatic_r
+Cflags: -I${includedir}
+

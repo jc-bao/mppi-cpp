@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/mujoco-build/src/xml",
+		"source" : "build/_deps/mujoco-src/src/xml"
+	}
+}

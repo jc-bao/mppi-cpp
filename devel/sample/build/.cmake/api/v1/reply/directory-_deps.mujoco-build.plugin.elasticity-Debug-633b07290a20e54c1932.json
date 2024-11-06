@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/mujoco-build/plugin/elasticity",
+		"source" : "build/_deps/mujoco-src/plugin/elasticity"
+	}
+}

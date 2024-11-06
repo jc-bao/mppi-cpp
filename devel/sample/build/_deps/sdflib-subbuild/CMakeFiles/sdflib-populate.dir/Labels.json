@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/CMakeFiles/sdflib-populate"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/CMakeFiles/sdflib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/CMakeFiles/sdflib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-patch_disconnected.rule"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/sdflib-subbuild/sdflib-populate-prefix/src/sdflib-populate-stamp/sdflib-populate-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdflib-populate"
+		],
+		"name" : "sdflib-populate"
+	}
+}

@@ -1,0 +1,5 @@
+{
+    "cmake.configureSettings": {
+        "MUJOCO_SAMPLES_USE_SYSTEM_MUJOCO": "OFF"
+    }
+}
