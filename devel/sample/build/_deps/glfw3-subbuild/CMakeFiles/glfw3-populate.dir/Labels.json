@@ -2,37 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate-complete.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/CMakeFiles/glfw3-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-build.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-configure.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-download.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-install.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-mkdir.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-patch_disconnected.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-test.rule"
-		},
-		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-update_disconnected.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glfw3-subbuild/glfw3-populate-prefix/src/glfw3-populate-stamp/glfw3-populate-test.rule"
 		}
 	],
 	"target" : 

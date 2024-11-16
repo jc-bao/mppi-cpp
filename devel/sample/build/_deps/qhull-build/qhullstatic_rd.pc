@@ -1,4 +1,4 @@
-prefix=C:/Program Files (x86)/mujoco_samples
+prefix=/usr/local
 libdir=${prefix}/lib
 includedir=${prefix}/include
 

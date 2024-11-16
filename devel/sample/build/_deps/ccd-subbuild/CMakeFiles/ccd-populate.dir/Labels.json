@@ -2,37 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/CMakeFiles/ccd-populate"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/CMakeFiles/ccd-populate"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/CMakeFiles/ccd-populate.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/CMakeFiles/ccd-populate.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/CMakeFiles/ccd-populate-complete.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/CMakeFiles/ccd-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-build.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-configure.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-download.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-install.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-mkdir.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-patch_disconnected.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-test.rule"
-		},
-		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-update_disconnected.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-subbuild/ccd-populate-prefix/src/ccd-populate-stamp/ccd-populate-test.rule"
 		}
 	],
 	"target" : 

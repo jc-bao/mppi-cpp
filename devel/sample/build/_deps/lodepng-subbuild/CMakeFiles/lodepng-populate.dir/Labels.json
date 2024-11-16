@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/CMakeFiles/lodepng-populate"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/CMakeFiles/lodepng-populate"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/CMakeFiles/lodepng-populate.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/CMakeFiles/lodepng-populate.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/CMakeFiles/lodepng-populate-complete.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/CMakeFiles/lodepng-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-build.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-configure.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-download.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-install.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-mkdir.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-patch.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-test.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-test.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-update.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/lodepng-subbuild/lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-update.rule"
 		}
 	],
 	"target" : 

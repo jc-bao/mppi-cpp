@@ -2,37 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/CMakeFiles/mujoco-populate"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/CMakeFiles/mujoco-populate"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/CMakeFiles/mujoco-populate.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/CMakeFiles/mujoco-populate.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/CMakeFiles/mujoco-populate-complete.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/CMakeFiles/mujoco-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-build.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-configure.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-download.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-install.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-mkdir.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-patch_disconnected.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-test.rule"
-		},
-		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-update_disconnected.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-subbuild/mujoco-populate-prefix/src/mujoco-populate-stamp/mujoco-populate-test.rule"
 		}
 	],
 	"target" : 

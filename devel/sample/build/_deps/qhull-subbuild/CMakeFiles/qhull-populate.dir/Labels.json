@@ -2,37 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/CMakeFiles/qhull-populate"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/CMakeFiles/qhull-populate"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/CMakeFiles/qhull-populate.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/CMakeFiles/qhull-populate.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/CMakeFiles/qhull-populate-complete.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/CMakeFiles/qhull-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-build.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-configure.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-download.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-install.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-mkdir.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-patch_disconnected.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-test.rule"
-		},
-		{
-			"file" : "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-update_disconnected.rule"
+			"file" : "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/qhull-subbuild/qhull-populate-prefix/src/qhull-populate-stamp/qhull-populate-test.rule"
 		}
 	],
 	"target" : 

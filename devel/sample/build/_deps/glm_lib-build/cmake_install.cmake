@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-src
+# Install script for directory: /home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mujoco_samples")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -27,55 +27,56 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set path to fallback-tool for dependency-resolution.
+# Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Strawberry/c/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump-12")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-src/glm")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-src/glm")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glm" TYPE FILE FILES
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/lib/cmake/glm/glmConfig.cmake"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/glmConfigVersion.cmake"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/lib/cmake/glm/glmConfig.cmake"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/glmConfigVersion.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glm/glmTargets.cmake")
-    file(DIFFERENT _cmake_export_file_changed FILES
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glm/glmTargets.cmake"
-         "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/CMakeFiles/Export/820b120f1c4a30a4249350d158e86720/glmTargets.cmake")
-    if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glm/glmTargets-*.cmake")
-      if(_cmake_old_config_files)
-        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glm/glmTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
-        unset(_cmake_old_config_files_text)
-        file(REMOVE ${_cmake_old_config_files})
+         "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/CMakeFiles/Export/lib/cmake/glm/glmTargets.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glm/glmTargets-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glm/glmTargets.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
       endif()
-      unset(_cmake_old_config_files)
     endif()
-    unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glm" TYPE FILE FILES "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/CMakeFiles/Export/820b120f1c4a30a4249350d158e86720/glmTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glm" TYPE FILE FILES "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/CMakeFiles/Export/lib/cmake/glm/glmTargets.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/glm.pc")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/glm.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/glm/cmake_install.cmake")
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/test/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/glm/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/glm_lib-build/test/cmake_install.cmake")
 
 endif()
 

@@ -106,11 +106,25 @@ target_link_libraries(
 )
 target_link_options(record PRIVATE ${MUJOCO_SAMPLE_LINK_OPTIONS})
 
+# Chaoyi MPPI
+add_executable(mppi mppi.cc)
+target_compile_options(mppi PUBLIC ${MUJOCO_SAMPLE_COMPILE_OPTIONS})
+target_link_libraries(
+  mppi
+  mujoco::mujoco
+  glfw
+  Threads::Threads
+)
+target_link_options(mppi PRIVATE ${MUJOCO_SAMPLE_LINK_OPTIONS})
+target_link_libraries(mppi mujoco::mujoco)
+
+
 if(APPLE AND MUJOCO_BUILD_MACOS_FRAMEWORKS)
   embed_in_bundle(basic simulate)
   embed_in_bundle(compile simulate)
   embed_in_bundle(record simulate)
   embed_in_bundle(testspeed simulate)
+  embed_in_bundle(mppi simulate)
 endif()
 
 # Do not install if macOS Bundles are created as RPATH is managed manually there.
@@ -129,6 +143,7 @@ if(_INSTALL_SAMPLES)
     compile
     record
     testspeed
+    mppi
     INSTALL_DIRECTORY
     "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_BINDIR}"
     LIB_DIRS

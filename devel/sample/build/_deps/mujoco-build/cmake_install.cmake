@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src
+# Install script for directory: /home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mujoco_samples")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -27,140 +27,159 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set path to fallback-tool for dependency-resolution.
+# Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Strawberry/c/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump-12")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/plugin/elasticity/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/plugin/elasticity/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/plugin/actuator/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/plugin/actuator/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/plugin/sensor/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/plugin/sensor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/plugin/sdf/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/plugin/sdf/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/engine/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/engine/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/user/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/user/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/xml/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/xml/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/render/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/render/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/thread/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/thread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/ui/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/src/ui/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/model/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/model/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/simulate/cmake_install.cmake")
+  include("/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/simulate/cmake_install.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/lib/libmujoco.dll.a")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/bin/libmujoco.dll")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/libmujoco.dll" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/libmujoco.dll")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xruntimex" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so.3.2.6" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so.3.2.6")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so.3.2.6"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pcy/Research/code/mppi-cpp/devel/sample/build/lib/libmujoco.so.3.2.6")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so.3.2.6" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so.3.2.6")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "C:/Strawberry/c/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/libmujoco.dll")
+      execute_process(COMMAND "/usr/bin/llvm-strip-12" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so.3.2.6")
     endif()
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xruntimex" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pcy/Research/code/mppi-cpp/devel/sample/build/lib/libmujoco.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/llvm-strip-12" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mujoco" TYPE FILE FILES
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjdata.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjexport.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjmacro.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjmodel.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjplugin.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjrender.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjsan.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjspec.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjthread.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjtnum.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjui.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjvisualize.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjxmacro.h"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mujoco.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjdata.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjexport.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjmacro.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjmodel.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjplugin.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjrender.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjsan.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjspec.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjthread.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjtnum.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjui.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjvisualize.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mjxmacro.h"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/include/mujoco/mujoco.h"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco/mujocoTargets.cmake")
-    file(DIFFERENT _cmake_export_file_changed FILES
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco/mujocoTargets.cmake"
-         "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/CMakeFiles/Export/0b3b73e44e0b7c8937151edebfc316a5/mujocoTargets.cmake")
-    if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco/mujocoTargets-*.cmake")
-      if(_cmake_old_config_files)
-        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco/mujocoTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
-        unset(_cmake_old_config_files_text)
-        file(REMOVE ${_cmake_old_config_files})
+         "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/CMakeFiles/Export/lib/cmake/mujoco/mujocoTargets.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco/mujocoTargets-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco/mujocoTargets.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
       endif()
-      unset(_cmake_old_config_files)
     endif()
-    unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco" TYPE FILE FILES "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/CMakeFiles/Export/0b3b73e44e0b7c8937151edebfc316a5/mujocoTargets.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco" TYPE FILE FILES "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/CMakeFiles/Export/0b3b73e44e0b7c8937151edebfc316a5/mujocoTargets-debug.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco" TYPE FILE FILES "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/CMakeFiles/Export/lib/cmake/mujoco/mujocoTargets.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco" TYPE FILE FILES "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/CMakeFiles/Export/lib/cmake/mujoco/mujocoTargets-release.cmake")
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/mujoco" TYPE FILE FILES
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/mujocoConfig.cmake"
-    "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/mujocoConfigVersion.cmake"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/mujocoConfig.cmake"
+    "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-build/mujocoConfigVersion.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco" TYPE DIRECTORY FILES "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/model" REGEX "/cmakelists\\.txt$" EXCLUDE)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco" TYPE DIRECTORY FILES "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/mujoco-src/model" REGEX "/CMakeLists\\.txt$" EXCLUDE)
 endif()
 

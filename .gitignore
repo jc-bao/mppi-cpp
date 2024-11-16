@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# MuJoCo
+*.mjb
+
+# GLFW
+*.glfw
+
+# build
+build/

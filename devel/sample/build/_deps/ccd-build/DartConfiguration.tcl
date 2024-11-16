@@ -4,31 +4,30 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-src
-BuildDirectory: C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-build
+SourceDirectory: /home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-src
+BuildDirectory: /home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: z13-chaoyi
+Site: pcy-OMEN
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Win32-ninja
+BuildName: Linux-clang++-12
 
 # Subprojects
 LabelsForSubprojects: 
 
 # Submission information
 SubmitURL: http://
-SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/JC-Ba/Documents/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-src"
-MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/usr/bin/cmake" "/home/pcy/Research/code/mppi-cpp/devel/sample/build/_deps/ccd-src"
+MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -45,7 +44,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: C:/Program Files/Git/cmd/git.exe
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,13 +57,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: C:/Program Files/Git/cmd/git.exe
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Strawberry/c/bin/g++.exe
-CompilerVersion: 13.2.0
+Compiler: /usr/bin/clang++-12
+CompilerVersion: 12.0.1
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +80,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/Strawberry/c/bin/gcov.exe
+CoverageCommand: /usr/bin/gcov
 CoverageExtraFlags: -l
 
 # Testing options
@@ -94,9 +93,6 @@ TimeOut: 1500
 # During parallel testing CTest will not start a new test if doing
 # so would cause the system load to exceed this value.
 TestLoad: 
-
-TLSVerify: 
-TLSVersion: 
 
 UseLaunchers: 
 CurlOptions: 
